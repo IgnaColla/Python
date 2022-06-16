@@ -1,6 +1,6 @@
 import pyttsx3 #pip install pyttsx3 && sudo apt install espeak
 import datetime
-import speech_recognition as sr #pip insall SpeechRecognition
+import speech_recognition as sr #pip install SpeechRecognition
 import wikipedia #pip install wikipedia
 import smtplib
 import webbrowser as wb
@@ -49,7 +49,7 @@ def takeCommand():
         print("Recognizing...")
         query = r.recgnize_google(audio, language = "en-in")
         print(query)
-    except Execption as e:
+    except Exception as e:
         print(e)
         speak("Say that again please...")
         return "None"
