@@ -35,7 +35,7 @@ def date():
     speak(year)
 
 def wishme():
-    speak("Welcome back sir!")
+    speak("Bienvenido nuevamente!")
     speak("Friday at your service.")
 
 def takeCommand():
